@@ -14,7 +14,7 @@ Sistema de gestión de citas médicas implementado en JavaScript, donde el usuar
    cd GestionCitas
 3. Ejecuta el proyecto
   ```bash
-  node Main.js
+    node Main.js
 ```
 
 ## Funcionalidades
@@ -25,17 +25,18 @@ El sistema ofrece las siguientes funcionalidades:
 3. Ver Todas las Citas
 4. Salir
    
-1. Agregar Cita
+- Agregar Cita
   Para agregar una cita, selecciona la opción 1 en el menú y sigue las instrucciones para ingresar los detalles de la cita (ID, nombre del paciente, fecha y nombre del doctor).
 
-2. Ver Cita por ID
+- Ver Cita por ID
   Para ver una cita específica, selecciona la opción 2 en el menú y proporciona el ID de la cita.
 
-3. Ver Todas las Citas
+- Ver Todas las Citas
   Para ver todas las citas, selecciona la opción 3 en el menú. Se mostrará una lista de todas las citas almacenadas.
 
-4. Salir
+- Salir
   Para salir del sistema, selecciona la opción 4 en el menú.
+
 
 
 Este sistema utliza una arquitectura de 3 capas y aplica principios SOLID y varios patrones de diseño.
@@ -75,15 +76,15 @@ Este sistema utliza una arquitectura de 3 capas y aplica principios SOLID y vari
 ## Estructura
 ```
   GestionCitas/
-  ── data/ # Capa de acceso a datos
-    ── CitaDao.js
-    ── CitaDaoImpl.js
-  ── model/ # Modelos de datos
-    ── Cita.js
-  ── service/ # Capa de lógica de negocio
-    ── CitaService.js
-    ── CitaServiceImpl.js
-  ── ui/ # Capa de presentación
-    ── CitaUI.js
+  ── data/  -> Capa de acceso a datos
+    ─ CitaDao.js
+    ─ CitaDaoImpl.js
+  ── model/ -> Modelos de datos
+    ─ Cita.js
+  ── service/ -> Capa de lógica de negocio
+    ─ CitaService.js
+    ─ CitaServiceImpl.js
+  ── ui/ -> Capa de presentación
+    ─ CitaUI.js
   ── Main.js
 ```
