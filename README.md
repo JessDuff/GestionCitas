@@ -3,19 +3,20 @@
 Sistema de gestión de citas médicas implementado en JavaScript, donde el usuario puede agendar una cita, ver todas las citas agendadas y ver una sola cita 
 
 ## Requisitos
-- Node.js
+Node.js
   ```bash
   https://nodejs.org/
-
+  ```
 ## Ejecución
 1. Clona este repositorio:
 2. Navega al directorio del proyecto
-   ```bash
-   cd GestionCitas
+  ```bash
+  cd GestionCitas
+  ```
 3. Ejecuta el proyecto
   ```bash
-    node Main.js
-```
+  node Main.js
+  ```
 
 ## Funcionalidades
 
